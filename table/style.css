@@ -9,7 +9,12 @@ thead {
 th {
     background-color: green;
     color: white;
-    border-radius: 5px 5px 0px 0px;
+}
+th:nth-child(1) {
+    border-top-left-radius: 5px;
+}
+th:nth-child(3) {
+    border-top-right-radius: 5px;
 }
 tr:nth-child(1) {
 background-color: lightgrey;
@@ -20,6 +25,19 @@ tr:nth-child(3) {
 tr:nth-child(5) {
     background-color: lightgrey;
 }
-td, th {
+th:nth-child(1) {
     text-align: right;
+}
+th:nth-child(3) {
+    text-align: left;
+}
+td:nth-child(1) {
+    text-align: right;
+}
+th:nth-child(2) {
+    text-align: left;
+    padding: 15px;
+}
+td {
+    padding: 12px;
 }
