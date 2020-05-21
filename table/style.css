@@ -1,1 +1,25 @@
 /* Add your CSS Below */
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+thead {
+    
+}
+th {
+    background-color: green;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+tr:nth-child(1) {
+background-color: lightgrey;
+}
+tr:nth-child(3) {
+    background-color: lightgrey;
+}
+tr:nth-child(5) {
+    background-color: lightgrey;
+}
+td, th {
+    text-align: right;
+}
